@@ -1,0 +1,95 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote，th,td {
+	margin: 0;
+	padding: 0;
+}
+
+ul{list-style: none;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+dd a:hover
+{
+	color: orange;
+	text-decoration: underline;
+}
+span
+{
+	color: #333;
+	font: 12px "微软雅黑";
+}
+tbody
+{
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+fieldset,img {
+	border: 0;
+}
+
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+	font: 14px Verdana, Helvetica, Arial, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+/*html {
+	overflow-y: scroll;
+}*/
+
+
+/* css common */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+html
+{
+	width: 100%;
+}
+body
+{
+	width: 100%;
+	min-width: 1024px;
+}
+
+::before,::after{
+ 	margin: 0;
+    padding: 0;
+   	/*在移动端，我们浏览器版本普遍较高，内核一般兼容webkit*/
+   	box-sizing: border-box;
+   	-webkit-box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}

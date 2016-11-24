@@ -1,0 +1,522 @@
+body {
+	width: 100%;
+	height: 100%;
+	font: 14px "微软雅黑";
+	overflow: hidden;
+}
+
+.box {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.dlu {
+	width: 100%;
+	height: 100px;
+	background: #fff;
+}
+
+.logo {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.dlu .logo img {
+	margin-top: 20px;
+	display: block;
+	float: left;
+}
+
+.header {
+	width: 100%;
+	display: block;
+	position: absolute;
+	min-width: 375px;
+	min-height: 600px;
+	background: url(../img/dlu/147548206047326654.jpg) no-repeat center;
+	left: 0;
+	display: block;
+}
+
+.header-one {
+	width: 100%;
+	display: block;
+	position: absolute;
+	min-width: 375px;
+	min-height: 600px;
+	background: url(../img/dlu/147548206047326654.jpg) no-repeat;
+	left: 0;
+	display: none;
+}
+
+.header img {
+	width: 100%;
+	display: block;
+}
+
+.logo a {
+	height: 18px;
+	margin-right: 10px;
+	line-height: 100px;
+	font-size: 14px;
+	float: right;
+	color: #333;
+}
+
+.logo a span {
+	display: inline-block;
+	height: 18px;
+	line-height: 100px;
+	width: 18px;
+	margin-right: 5px;
+	background: url(../img/dlu/spritesheet.png) no-repeat -143px -1px;
+}
+.form-one
+{
+	width:1024px;
+	height: 446px;
+	margin: auto;
+}
+.form
+{
+	position:relative;
+	width: 365px;
+	height: 446px;
+	margin-top: 50px;
+	background-color:white;
+	behavior: url(PIE.htc);
+	border-radius:4px;
+	behavior: url(PIE-1.0.0/PIE.htc);
+	box-shadow: 0 0 4px rgba(187,187,187,0.7);
+	-pie-box-shadow: 0 0 4px rgba(187,187,187,0.7);
+	color: #333;
+	line-height: 1;
+	float: right;
+}
+.form .tab
+{
+	width: 50%;
+	height: 50px;
+	border-bottom: 1px solid #f4f4f4;
+	background-color:white;
+	float: left;
+	margin-bottom: 5px;
+}
+.tab a
+{
+	text-align: center;
+	border-right: 1px solid #eee;
+	padding-left:40px;
+	width: 150px;
+	height: 18px;
+	position: absolute;
+	left: 0px;
+	top: 18px;
+	text-decoration: none;
+	outline: 0;
+	font: 20px "微软雅黑";
+	
+}
+.tab a span
+{
+	padding-bottom: 6px;
+	border-bottom: 2px solid #f90;
+	color: #f90;
+	font-size:20px;
+	font-family: "微软雅黑";
+}
+
+.tab-two
+{
+	width: 50%;
+	height: 50px;
+	border-bottom: 1px solid #f4f4f4;
+	background-color:white;
+	behavior: url(PIE.htc);
+	float: left;
+	margin-bottom: 5px;
+
+}
+.tab-two a
+{
+	padding-left:40px;
+	width: 150px;
+	height: 18px;
+	position: absolute;
+	left: 190px;
+	top: 18px;
+	text-decoration: none;
+	outline: 0;
+	font: 20px "微软雅黑";
+}
+.tab-two a span
+{
+	color: #333;
+	font: 20px "微软雅黑";
+}
+.form-code2
+{
+	display: block;
+	height: 390px;
+	position: relative;
+	clear: both;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+.qrCodeErrorDiv
+{
+	width: 365px;
+	height: 24px;
+	color: #333;
+	line-height: 24px;
+	padding-top: 10px;
+}
+.qrCodeErrorDiv .code-title
+{
+	font-size: 16px;
+	text-align: center;
+}
+.qrCodeErrorDiv .code-title i
+{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(../img/dlu/scan.png) no-repeat;
+}
+.qrCodeErrorDiv  span
+{
+	display: inline-block;
+	vertical-align: middle;
+	font: 16px "微软雅黑";
+	text-align: center;
+	color: #FF9900;
+	line-height: 24px;
+}
+.qrcode-area
+{
+	position: relative;
+	width: 200px;
+	margin: 19px 45px 35px 45px;
+}
+.qrcode-area img
+{
+	float: left;
+	display: block;
+	width: 138px;
+	height: 138px;
+	margin-top: 34px;
+}
+.qrcode-area i
+{
+	position: absolute;
+	float: right;
+	width: 133px;
+	height: 200px;
+	background: url(../img/dlu/phone.png) no-repeat;
+	font-style: normal;
+	margin-left: 20px;
+}
+.form-code2 .mbp
+{
+	position: absolute;
+	text-align: center;
+	margin-bottom: 10px !important;
+	top: 290px;
+	width: 100%;
+}
+.down-link
+{
+	position: absolute;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	line-height: 1.5;
+	top: 310px;
+}
+.down-link em
+{
+	color: #2272c8;
+	font: 12px "微软雅黑";
+	font-style: normal;
+}
+.ico-down
+{
+	position: absolute;
+	width: 18px;
+	height: 14px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	line-height: 24px;
+	top: 4px;
+	left:113px;
+	background: url(../img/dlu/spritesheet.png) no-repeat -179px -2px;
+}
+/*登录文本框*/
+.form-code3
+{
+	display: block;
+	position: relative;
+	margin: 30px 24px 0;
+	z-index: 101;
+	clear: both;
+}
+.form-title
+{
+	margin-bottom: 20px;
+	font: 14px "微软雅黑";
+	height: 20px;
+	line-height: 20px;
+	padding-left: 13px;
+}
+.form-title i
+{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(../img/dlu/icon.png) no-repeat;
+}
+.form-code3 em
+{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 20px;
+	font-style: normal;
+}
+.showErrorUsernameDiv
+{
+	position: relative;
+	padding: 11px 26px 11px 37px;
+	border: 1px solid #ddd;
+	background: #fff;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.showErrorPwdDiv
+{
+	position: relative;
+	padding: 11px 26px 11px 37px;
+	border: 1px solid #ddd;
+	background: #fff;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.input-lable
+{
+	display: inline;
+	position: absolute;
+	left: 37px;
+	top: 14px;
+	font-size: 14px;
+	color: #999;
+	background: 0;
+	cursor: text;
+}
+.showErrorUsernameDiv i
+{
+	display: block;
+	position: absolute;
+	top: 9px;
+	left: 9px;
+	width: 19px;
+	height: 20px;
+	background: url(../img/dlu/spritesheet.png) no-repeat -110px -24px;
+	line-height: 20px;
+	font-style: normal;
+}
+.showErrorPwdDiv i
+{
+	display: block;
+	position: absolute;
+	top: 9px;
+	left: 9px;
+	width: 19px;
+	height: 20px;
+	background: url(../img/dlu/spritesheet.png) no-repeat -110px -44px;
+	line-height: 20px;
+	font-style: normal;
+}
+.showErrorUsernameDiv input
+{
+	width: 294px;
+	height: 18px;
+	background: #fff;
+	font: 14px "微软雅黑";
+	border: 0;
+	outline: 0;
+	overflow: hidden;
+}
+.showErrorPwdDiv input
+{
+	width: 294px;
+	height: 18px;
+	background: #fff;
+	font: 14px "微软雅黑";
+	border: 0;
+	outline: 0;
+	overflow: hidden;
+}
+
+.input-lable-pw
+{
+	display: inline;
+	position: absolute;
+	left: 37px;
+	top: 14px;
+	font-size: 14px;
+	color: #999;
+	background: 0;
+	cursor: text;
+}
+
+/*第三部分*/
+.auto-login
+{
+	width: 316px;
+	position: relative;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+.auto-login input
+{
+	font-size:100%;
+	outline: 0;
+	line-height: 14px;
+}
+.auto-login em
+{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	margin-left: 5px;
+	line-height: 14px;
+	color: #666;
+	margin-top: 0;
+	font-style: normal;
+}
+.warn-msg
+{
+	position: absolute;
+	display: block;
+	padding: 2px 10px 2px 34px;
+	top: -3px;
+	left: auto;
+	right: 0;
+	color: #333;
+	background: ivory;
+	border: 1px solid #fc6;
+}
+.warn-msg .nms-ico
+{
+	top: 1px;
+	position: absolute;
+	left: 9px;
+	vertical-align: middle;
+	width: 18px;
+	height: 17px;
+	margin: 0 5px 0 0;
+	background: url(../img/dlu/newMsIcon.png) no-repeat;
+	background-position:-175px -140px ;
+}
+/*第三部分结束*/
+/*第四块开始*/
+.mb10
+{
+	width: 319px;
+	margin:  0 auto;
+	margin-top: 20px;
+}
+
+.mb10 a
+{
+	display: block;
+	padding: 10px 0;
+	height: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	background: #ff9c00;
+	border-radius: 3px;
+	outline: 0;
+}
+.list-text
+{
+	width: 319px;
+	margin: auto;
+	margin-top: 10px;
+}
+.list-text a.a1
+{
+	float: left;
+	color: #f90;
+	font: 12px "微软雅黑";
+}
+.list-text a.a2
+{
+	float: right;
+	color: #333;
+	font: 12px "微软雅黑";
+}
+/*第四部分结束*/
+/*第五块开始*/
+.net-cooperation
+{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	color: #999;
+	bottom: -80px;
+}
+.net-cooperation .show-text
+{
+	width: 319px;
+	margin: 0 auto;
+	text-align: center;
+	height: 1px;
+	background: url(../img/dlu/spritesheet.png)no-repeat -144px 0px;
+}
+.net-cooperation em
+{
+	position: relative;
+	top: -8px;
+	left: 5px;
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	font-style: normal;
+	
+}
+.show-text-ones
+{
+	position: relative;
+	width: 319px;
+	margin: auto;
+	top: 40px;
+}
+.show-text-ones a
+{
+	float: left;
+	display: block;
+	padding: 0 14px;
+	height: 15px;
+	line-height: 15px;
+	border-right: 1px solid #ddd;
+	cursor: pointer;
+	color: #999;
+	font: 12px "微软雅黑";
+}
+.show-text-ones a.pptv
+{
+	border-right: 0px solid transparent;
+}
+/*第五块结束*/

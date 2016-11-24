@@ -1,0 +1,135 @@
+body
+{
+	background: #f8f8f8;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.box
+{
+	width: 100%;
+	height: 100%;
+}
+.zc-heater
+{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+}
+.zc-heater .a1
+{
+	position:relative;
+	height: 60px;
+	float: left;
+	left:4%;
+	margin:  auto;
+}
+.zc-heater .a2
+{
+	position: relative;
+	height: 30px;
+	float: right;
+	right:5%;
+	line-height: 60px;
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+.zc-center
+{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	margin-top: 2%;
+}
+.zc-one
+{
+	position: relative;
+	width: 90%;
+	height: 100%;
+	background: #fff;
+	margin: 0 auto;
+}
+.zc-one .p1
+{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	margin-top: 200px;
+	text-align: center;
+}
+.zc-one .p1 span
+{
+	width: 100%;
+	text-align: center;
+	display: block;
+	font: bold 20px "微软雅黑";
+	line-height: 40px;
+	color: orange;
+}
+.zc-one .p1 input
+{
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	margin:  0 auto;
+	text-align: center;
+	border: 1px solid orange;
+	font-size: 20px;
+}
+
+.zc-one .p2
+{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	margin-top: 340px;
+	text-align: center;
+}
+
+.zc-one .p2 span
+{
+	width: 100%;
+	text-align: center;
+	display: block;
+	font: bold 20px "微软雅黑";
+	line-height: 40px;
+	color: orange;
+}
+.zc-one .p2 input
+{
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	margin:  0 auto;
+	text-align: center;
+	border: 1px solid orange;
+	font-size: 20px;
+}
+
+.zc-one .p3
+{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	margin-top: 500px;
+	text-align: center;
+}
+.zc-one .p3 input
+{
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	margin:  0 auto;
+	background: orange;
+	color: white;
+	text-align: center;
+	border: 1px solid orange;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
